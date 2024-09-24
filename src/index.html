@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Weather App</h1>
+    </header>
+    <main>
+        <section id="search-section">
+            <input type="search" placeholder="Search location" id="location-input" value=""/>
+            <button type="button" id="search-button" class="search-button">Search</button>
+        </section>
+        <section id="results-section">
+            <button type="button" id="toggle-btn" class="toggle-btn" value="Fahrenheit">&#8457;</button>
+            <div id="weather-info" class="weather-info hidden">
+                <p class="weather-element" id="location-address"></p>
+                <p class="weather-element" id="current-date"></p>
+                <p class="weather-element" id="current-conditions"></p>
+                <p class="weather-element" id="temp-element"></p>
+                <p class="weather-element" id="precipitation-type"></p>
+                <p class="weather-element" id="precipitation-probability"></p>
+                <p class="weather-element" id="weather-description"></p>
+                <p class="weather-element" id="sun-rise"></p>
+                <p class="weather-element" id="sun-set"></p>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
